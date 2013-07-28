@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Header.Master.cs" Inherits="taketerns.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div>
+          <div style="padding-top: 20px; padding-bottom: 35px"> 
+       <img src="Styles/Take%20Terns%20Logo.jpg" style="padding: 10px; height: 88px; width: 107px;" />
+            
+            <asp:TextBox ID="TextBox1" runat="server" Width="211px" OnTextChanged="TextBox1_TextChanged" Height="35px"></asp:TextBox>
+              <asp:Button ID="Button1" runat="server"  BackColor="White" BorderStyle="None" Text="Home" Width="72px" Height="35px" />
+              |<asp:Button ID="Button2" runat="server" BackColor="White" BorderStyle="None" Height="35px" Text="Profile" Width="82px" />
+              |<asp:Button ID="Button3" runat="server" BackColor="White" BorderStyle="None" Height="35px" Text="Messages" Width="105px" />
+              |<asp:Button ID="Button4" runat="server" BackColor="White" BorderStyle="None" Height="35px" Text="Calander" />
+              |<asp:Button ID="Button5" runat="server" BackColor="White" BorderStyle="None" Height="35px" Text="Internships" Width="100px" />
+              |<asp:Button ID="Button6" runat="server" BackColor="White" BorderStyle="None" Height="35px" Text="Network" />
+            </div> 
+          </div>  
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
