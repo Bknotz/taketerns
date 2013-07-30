@@ -13,10 +13,10 @@
     <form id="form1" runat="server">
 
         <div>
-          <div style="padding-top: 20px; padding-bottom: 35px; background-color: #009999; margin-left: 75px; margin-right: 75px; overflow: hidden;"> 
-       <img src="Styles/Take%20Terns%20Logo.jpg" style="height: 100px; width: 107px;" />
+          <div align="center" style="padding-top: 20px; padding-bottom: 35px; background-color: #009999; margin-left: 75px; margin-right: 75px; overflow: hidden;"> 
+       <img src="pics/Take%20Terns%20Logo.jpg" style="height: 100px; width: 107px;" />
             
-              <asp:TextBox ID="TextBox1" runat="server" Width="211px"  Height="35px"></asp:TextBox>
+              <asp:TextBox ID="TextBox1" runat="server" Width="300px"  Height="35px"></asp:TextBox>
               <asp:Button ID="Button1" runat="server"  BackColor="#009999" BorderStyle="None" Text="Home" Width="72px" Height="35px" ForeColor="White" />
               |<asp:Button ID="Button2" runat="server" BackColor="#009999" BorderStyle="None" Height="35px" Text="Profile" Width="82px" ForeColor="White" />
               |<asp:Button ID="Button3" runat="server" BackColor="#009999" BorderStyle="None" Height="35px" Text="Messages" Width="105px" ForeColor="White" />
