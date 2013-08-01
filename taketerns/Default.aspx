@@ -117,31 +117,31 @@
     }
 
     #profile {
-        background-color: #4E73FF;
+        background-color: #1750E8;
     }
 
         #profile:hover {
-            background-color: #1750E8;
+            background-color: #001EFF;
         }
 
     #tile1 {
-        background-color: #76FF77;
+        background-color: #00B5FF;
         margin-left: 10px;
     }
         #tile1:hover {
-            background-color: #00FF44;
+            background-color: #008EFF;
         }
 
     #tile2 {
-        background-color: #FF6242;
+        background-color: #FF3F0E;
         margin-left: 10px;
     }
         #tile2:hover {
-            background-color: #FF3F0E;
+            background-color: #FF0C00;
         }
 
     #calendar {
-        background-color: #A462E8;
+        background-color: #A600FF;
         margin-left: 10px;
     }
         #calendar:hover {
@@ -149,14 +149,14 @@
         }
 
     #queue {
-        background-color: #46D2FF;
+        background-color: #00B5FF;
     }
         #queue:hover {
-            background-color: #00ABFF;
+            background-color: #008EFF;
         }
 
     #history {
-        background-color: #FF9338;
+        background-color: #FF9500;
         margin-left: 10px;
     }
         #history:hover {
@@ -164,30 +164,30 @@
         }
 
     #search {
-        background-color: #FF6242;
+        background-color: #FF3F0E;
         margin-left: 10px;
     }
         #search:hover {
-            background-color: #FF3F0E;
+            background-color: #FF0C00;
         }
 
     #network {
-        background-color: #4E73FF;
+        background-color: #1750E8;
         margin-left: 10px;
     }
         #network:hover {
-            background-color: #1750E8;
+            background-color: #001EFF;
         }
 
     #messages {
-        background-color: #A462E8;
+        background-color: #A600FF;
     }
         #messages:hover {
             background-color: #6119E8;
         }
 
     #tile3 {
-        background-color: #FF9338;
+        background-color: #FF9500;
         margin-left: 10px;
     }
         #tile3:hover {
@@ -195,16 +195,16 @@
         }
 
     #tile4 {
-        background-color: #4E73FF;
+        background-color: #1750E8;
         margin-left: 10px;
     }
 
         #tile4:hover {
-            background-color: #1750E8;
+            background-color: #001EFF;
         }
 
     #tile5 {
-        background-color: #A462E8;
+        background-color: #A600FF;
         margin-left: 10px;
     }
         #tile5:hover {
