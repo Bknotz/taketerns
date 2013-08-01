@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Header.master" AutoEventWireup="true"
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site2.master" AutoEventWireup="true"
     CodeBehind="Default.aspx.cs" Inherits="taketerns.Default" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="head">
@@ -7,18 +7,18 @@
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
 
     <div class="line" id="topline">
-        <div class="tile" id="profile" onclick="location.href='profile.aspx';">
-            <img src="styles/profile.png" style="height:50px; margin-top:20px;"/>
+        <div class="largetile" id="profile" onclick="location.href='profile.aspx';">
+            <img src="styles/profile.png" class="image"/>
             <div class="text">
                 My Profile
             </div>
         </div>
-        <div class="tile" id="tile1">
+        <div class="smalltile" id="tile1">
         </div>
-        <div class="tile" id="tile2">
+        <div class="smalltile" id="tile2">
         </div>
-        <div class="tile" id="calendar">
-            <img src="styles/calendar.png" style="height:50px; margin-top:20px;"/>
+        <div class="largetile" id="calendar">
+            <img src="styles/calendar.png" class="image"/>
             <div class="text">
                 Calendar
             </div>
@@ -26,26 +26,26 @@
     </div>
 
     <div class ="line" style="margin-top: 10px">
-        <div class="tile" id="queue">
-            <img src="styles/queue.png" style="height:50px; margin-top:20px;"/>
+        <div class="smalltile" id="queue">
+            <img src="styles/queue.png" class="image"/>
             <div class="text">
                 Internship Queue
             </div>
         </div>
-        <div class="tile" id="history">
-            <img src="styles/history.png" style="height:50px; margin-top:20px;"/>
+        <div class="smalltile" id="history">
+            <img src="styles/history.png" class="image"/>
             <div class="text">
                 Past Internships
             </div>
         </div>
-        <div class="tile" id="search">
-            <img src="styles/search.png" style="height:50px; margin-top:20px;"/>
+        <div class="largetile" id="search">
+            <img src="styles/search.png" class="image"/>
             <div class="text">
                 Find Internships
             </div>
         </div>
-        <div class="tile" id="network">
-            <img src="styles/network.png" style="height:50px; margin-top:20px;"/>
+        <div class="largetile" id="network">
+            <img src="styles/network.png" class="image"/>
             <div class="text">
                 My Network
             </div>
@@ -53,28 +53,29 @@
     </div>
 
     <div class ="line" style="margin-top: 10px">
-        <div class="tile" id="messages">
-            <img src="styles/messages.png" style="height:50px; margin-top:20px;" />
+        <div class="largetile" id="messages">
+            <img src="styles/messages.png" class="image"/>
             <div class="text">
                 Messages
             </div>
         </div>
-        <div class="tile" id="tile3">
+        <div class="largetile" id="tile3">
         </div>
-        <div class="tile" id="tile4">
+        <div class="smalltile" id="tile4">
         </div>
-        <div class="tile" id="tile5">
+        <div class="smalltile" id="tile5">
         </div>
     </div>
 
 <style type="text/css">
 
+
     .line {
-        margin-left: 75px;
-        margin-right: 75px;
         display: table;
         width: auto;
-        height: 120px;
+        height: 200px;
+        margin:auto;
+        text-align: center;
     }
 
     #topline {
@@ -82,7 +83,29 @@
     }
 
     .tile {
-        height: 120px;
+        height: 200px;
+        display: table-cell;
+        text-align: center;
+        float:left;
+        -moz-box-shadow:    inset 0 0 1px #000000;
+        -webkit-box-shadow: inset 0 0 1px #000000;
+        box-shadow:         inset 0 0 1px #000000;
+    }
+
+    .smalltile {
+        height: 200px;
+        width: 200px;
+        display: table-cell;
+        text-align: center;
+        float:left;
+        -moz-box-shadow:    inset 0 0 1px #000000;
+        -webkit-box-shadow: inset 0 0 1px #000000;
+        box-shadow:         inset 0 0 1px #000000;
+    }
+
+    .largetile {
+        height: 200px;
+        width: 410px;
         display: table-cell;
         text-align: center;
         float:left;
@@ -93,14 +116,18 @@
 
     .text {
         color: white;
-        font-size: 15px;
+        font-size: 20px;
         font-family: 'Titillium Web';
         font-weight: 400;
     }
 
+    .image {
+        height: 100px;
+        margin-top: 40px;
+    }
+
     #profile {
         background-color: #4E73FF;
-        width: 250px;
     }
 
         #profile:hover {
@@ -109,7 +136,6 @@
 
     #tile1 {
         background-color: #76FF77;
-        width: 120px;
         margin-left: 10px;
     }
         #tile1:hover {
@@ -118,7 +144,6 @@
 
     #tile2 {
         background-color: #FF6242;
-        width: 120px;
         margin-left: 10px;
     }
         #tile2:hover {
@@ -127,7 +152,6 @@
 
     #calendar {
         background-color: #A462E8;
-        width: 250px;
         margin-left: 10px;
     }
         #calendar:hover {
@@ -136,7 +160,6 @@
 
     #queue {
         background-color: #46D2FF;
-        width: 120px;
     }
         #queue:hover {
             background-color: #00ABFF;
@@ -144,7 +167,6 @@
 
     #history {
         background-color: #FF9338;
-        width: 120px;
         margin-left: 10px;
     }
         #history:hover {
@@ -153,7 +175,6 @@
 
     #search {
         background-color: #FF6242;
-        width: 250px;
         margin-left: 10px;
     }
         #search:hover {
@@ -162,7 +183,6 @@
 
     #network {
         background-color: #4E73FF;
-        width: 250px;
         margin-left: 10px;
     }
         #network:hover {
@@ -171,7 +191,6 @@
 
     #messages {
         background-color: #A462E8;
-        width: 250px;
     }
         #messages:hover {
             background-color: #6119E8;
@@ -179,7 +198,6 @@
 
     #tile3 {
         background-color: #FF9338;
-        width: 250px;
         margin-left: 10px;
     }
         #tile3:hover {
@@ -188,7 +206,6 @@
 
     #tile4 {
         background-color: #4E73FF;
-        width: 120px;
         margin-left: 10px;
     }
 
@@ -198,7 +215,6 @@
 
     #tile5 {
         background-color: #A462E8;
-        width: 120px;
         margin-left: 10px;
     }
         #tile5:hover {
