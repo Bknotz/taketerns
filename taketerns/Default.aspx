@@ -6,6 +6,9 @@
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
 
+    <div style="font-family:'Titillium Web'; font-size:50px; display: table; margin:auto; height: auto; width: auto; font-weight:200">
+        Take Terns. Get Started.
+    </div>
     <div class="line" id="topline">
         <div class="largetile" id="profile" onclick="location.href='profile.aspx';">
             <img src="styles/profile.png" class="image"/>
