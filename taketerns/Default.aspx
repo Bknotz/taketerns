@@ -73,7 +73,7 @@
     .line {
         display: table;
         width: auto;
-        height: 200px;
+        height: auto;
         margin:auto;
         text-align: center;
     }
@@ -82,19 +82,9 @@
         margin-top: 30px;
     }
 
-    .tile {
-        height: 200px;
-        display: table-cell;
-        text-align: center;
-        float:left;
-        -moz-box-shadow:    inset 0 0 1px #000000;
-        -webkit-box-shadow: inset 0 0 1px #000000;
-        box-shadow:         inset 0 0 1px #000000;
-    }
-
     .smalltile {
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
         display: table-cell;
         text-align: center;
         float:left;
@@ -104,8 +94,8 @@
     }
 
     .largetile {
-        height: 200px;
-        width: 410px;
+        height: 150px;
+        width: 310px;
         display: table-cell;
         text-align: center;
         float:left;
@@ -116,14 +106,14 @@
 
     .text {
         color: white;
-        font-size: 20px;
+        font-size: 15px;
         font-family: 'Titillium Web';
         font-weight: 400;
     }
 
     .image {
-        height: 100px;
-        margin-top: 40px;
+        height: 75px;
+        margin-top: 25px;
     }
 
     #profile {
