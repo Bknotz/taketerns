@@ -5,9 +5,8 @@
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
-
-    <div style="font-family:'Titillium Web'; font-size:50px; display: table; margin:auto; height: auto; width: auto; font-weight:200">
-        Take Terns. Get Started.
+    <div style="display: table; margin: auto; height: auto; width: 500px; font-family:'Titillium Web'; font-size:50px; font-weight:200">
+            Take Terns. Get Started.
     </div>
     <div class="line" id="topline">
         <div class="largetile" id="profile" onclick="location.href='profile.aspx';">
@@ -75,7 +74,7 @@
 
     .line {
         display: table;
-        width: auto;
+        width: 1000px;
         height: auto;
         margin:auto;
         text-align: center;
