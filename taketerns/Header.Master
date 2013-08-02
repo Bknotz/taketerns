@@ -13,16 +13,16 @@
     <form id="form1" runat="server">
         <div align="center" style="width:1200px">
         <div>
-          <div align="center" style=" width:90%; padding-top: 20px; padding-bottom: 35px; background-color: #009999; margin-left: 75px; margin-right: 75px; overflow: hidden;"> 
-       <img src="pics/Take%20Terns%20Logo.jpg" style="height: 100px; width: 107px;" />
+          <div align="center" style=" width:90%; padding-top: 10px; padding-bottom: 10px; background-color: #558C89; margin-left: 75px; margin-right: 75px; overflow: hidden; height: 74px;"> 
+       <img src="pics/LogoGreen.jpg" style="height: 57px; width: 87px;" />
             
               <asp:TextBox ID="TextBox1" runat="server" Width="300px"  Height="35px"></asp:TextBox>
-              <asp:Button ID="Button1" runat="server"  BackColor="#009999" BorderStyle="None" Text="Home" Width="72px" Height="35px" ForeColor="White" />
-              |<asp:Button ID="Button2" runat="server" BackColor="#009999" BorderStyle="None" Height="35px" Text="Profile" Width="82px" ForeColor="White" />
-              |<asp:Button ID="Button3" runat="server" BackColor="#009999" BorderStyle="None" Height="35px" Text="Messages" Width="105px" ForeColor="White" />
-              |<asp:Button ID="Button4" runat="server" BackColor="#009999" BorderStyle="None" Height="35px" Text="Calander" ForeColor="White" />
-              |<asp:Button ID="Button5" runat="server" BackColor="#009999" BorderStyle="None" Height="35px" Text="Internships" Width="100px" ForeColor="White" />
-              |<asp:Button ID="Button6" runat="server" BackColor="#009999" BorderStyle="None" Height="35px" Text="Network" ForeColor="White" />
+              <asp:Button ID="Button1" runat="server"  BackColor="#558C89" BorderStyle="None" Text="Home" Width="72px" Height="35px" ForeColor="White" />
+              |<asp:Button ID="Button2" runat="server" BackColor="#558C89" BorderStyle="None" Height="35px" Text="Profile" Width="82px" ForeColor="White" />
+              |<asp:Button ID="Button3" runat="server" BackColor="#558C89" BorderStyle="None" Height="35px" Text="Messages" Width="105px" ForeColor="White" />
+              |<asp:Button ID="Button4" runat="server" BackColor="#558C89" BorderStyle="None" Height="35px" Text="Calander" ForeColor="White" />
+              |<asp:Button ID="Button5" runat="server" BackColor="#558C89" BorderStyle="None" Height="35px" Text="Internships" Width="100px" ForeColor="White" />
+              |<asp:Button ID="Button6" runat="server" BackColor="#558C89" BorderStyle="None" Height="35px" Text="Network" ForeColor="White" />
             </div> 
           </div>  
     <div>
